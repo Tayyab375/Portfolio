@@ -1,4 +1,4 @@
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaFacebook, FaAngular } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import {
   SiStyledcomponents,
@@ -9,7 +9,7 @@ import {
 import { IoLogoCss3 } from "react-icons/io";
 import { AiFillHtml5, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiNodejs, DiMongodb } from "react-icons/di";
-import { FaFacebook } from "react-icons/fa";
+
 
 // images
 import { project1img } from "../assets";
@@ -51,8 +51,8 @@ export const skillsContent = [
     aos: "fade-up",
   },
   {
-    icon: <TbBrandJavascript color="#F2D400" />,
-    title: "Javascript",
+    icon: <FaAngular color="#C50836" />,
+    title: "AngularJS",
     aos: "fade-down",
   },
   {
@@ -87,19 +87,24 @@ export const skillsContent = [
     aos: "fade-down",
   },
   {
+    icon: <TbBrandJavascript color="#F2D400" />,
+    title: "Javascript",
+    aos: "fade-up",
+  },
+  {
     icon: <IoLogoCss3 color="#006AB1" />,
     title: "CSS",
-    aos: "fade-up",
+    aos: "fade-down",
   },
   {
     icon: <AiFillHtml5 color="#D84924" />,
     title: "HTML",
-    aos: "fade-down",
+    aos: "fade-up",
   },
   {
     icon: <AiFillGithub color="white" />,
     title: "Github",
-    aos: "fade-up",
+    aos: "fade-down",
   },
 ];
 
